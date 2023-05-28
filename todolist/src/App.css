@@ -1,0 +1,69 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+main{
+  width: 500px;
+  margin: 0 auto;
+}
+main h1{
+  text-align: center;
+  margin-bottom: 30px;
+  padding-top: 30px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #00000050;
+}
+.input-list{
+  margin-top: 50px;
+  border-bottom: 1px solid #00000050;
+  display: flex;
+}
+.input-list input{
+  padding-left: 40px;
+  width: 450px;
+  border: 1px solid transparent;
+  height: 50px;
+  font-size: 20px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.list-wrap{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px
+}
+.todo-item{
+  color: #000;
+  font-size: 20px;
+  width: 500px;
+  display: flex;
+  text-align: center;
+  line-height: 50px;
+  height: 50px;
+}
+.todo-item >em{
+  width: 450px;
+  font-style: normal;
+  height: 50px;
+  font-size: 20px;
+  display: block;
+  border-bottom: 1px solid #00000050;
+
+}
+.item-add,
+.todo-item >span{
+  width: 50px;
+  cursor: pointer;
+  height: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  background-color: blue;
+  color: #fff;
+  text-align: center;
+  display: block;
+}
+.todo-item >span{
+  background-color: red;
+}
