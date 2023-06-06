@@ -5,7 +5,7 @@ function TodoItem({item,todoList,index,setTodoList}) {
         const list = todoList.filter((_item,_index)=>  _index != index);
          setTodoList(list);
     }
-  
+
     return(
         <div className="todo-item"><em>{item}</em>
         <span className="item-delect" onClick={itemDelect}>삭제</span>
